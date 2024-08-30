@@ -1,0 +1,90 @@
+*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 34688 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb101Application in 6.122 seconds (process running for 6.97)--
+*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=thanush, email=alagu@thanush]]--
+*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=thanush, email=alagu@thanush]]--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=alagu, email=alice@example.com]]--
+*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=alagu, email=alice@example.com]]--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--

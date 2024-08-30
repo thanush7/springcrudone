@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Service;
 
 import com.kgisll.sb101.entity.Person;
 import com.kgisll.sb101.repository.PersonRepository;
 
+@EnableAspectJAutoProxy
 @Service
 public class PersonService {
     @Autowired
