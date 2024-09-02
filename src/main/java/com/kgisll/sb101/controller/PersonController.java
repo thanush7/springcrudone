@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kgisll.sb101.entity.Person;
 import com.kgisll.sb101.service.PersonService;
 
-
 @RequestMapping("/person")
 @RestController
 public class PersonController {
