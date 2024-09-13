@@ -44,9 +44,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Define SONAR_TOKEN in GitHub Secrets
-        run: mvn sonar:sonar \
-          -Dsonar.projectKey=thanush7_springcrudone \
-          -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
-          -Dsonar.java.binaries=target/classes \
-          -X  # Enable debug logging for Maven
+        run: mvn sonar:sonar -Dsonar.projectKey=thanush7_springcrudone -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }} -Dsonar.java.binaries=target/classes -X
+        
