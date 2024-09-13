@@ -1,4 +1,4 @@
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 19816 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
+*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 23988 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
 *[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
 *[INFO ]-- Starting service [Tomcat]--
 *[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
@@ -6,10 +6,9 @@
 *[INFO ]-- HikariPool-1 - Starting...--
 *[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
 *[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 8.788 seconds (process running for 9.912)--
-*[WARN ]-- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h33m30s29ms271µs300ns).--
+*[INFO ]-- Started Sb101Application in 2.85 seconds (process running for 3.236)--
 *[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
-*[INFO ]-- Init duration for springdoc-openapi is: 571 ms--
+*[INFO ]-- Init duration for springdoc-openapi is: 179 ms--
 *[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  getDetails--
@@ -18,14 +17,6 @@
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  getDetails--
 *[INFO ]-- Arguments :  []--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=alagu, email=string]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=alagu, email=string]]--
 *[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  getDetails--
@@ -34,74 +25,38 @@
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  getDetails--
 *[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
 *[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=thanush]]--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
 *[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=thanush]]--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=ds, email=thanush]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=ds, email=thanush]]--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=adf, email=thanush]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=adf, email=thanush]]--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 25324 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 6.233 seconds (process running for 7.113)--
-*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=thanush]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=thanush]]--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=null, email=null]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=0, uname=null, email=null]]--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
 *[INFO ]-- After Throwing Method:ResponseEntity com.kgisll.sb101.controller.PersonController.update(int,Person)--
-*[ERROR]-- Exception in method: update with arguments: [3, Person[id=0, uname=null, email=null]]--
+*[ERROR]-- Exception in method: update with arguments: [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
 *[ERROR]-- Exception: --
-org.springframework.data.relational.core.conversion.DbActionExecutionException: Failed to execute InsertRoot{entity=Person[id=0, uname=null, email=null], idValueSource=GENERATED}
+org.springframework.data.relational.core.conversion.DbActionExecutionException: Failed to execute DbAction.UpdateRoot(entity=Person[id=3, uname=alagu, email=thanush@email.com])
 	at org.springframework.data.jdbc.core.AggregateChangeExecutor.execute(AggregateChangeExecutor.java:118)
 	at org.springframework.data.jdbc.core.AggregateChangeExecutor.lambda$executeSave$0(AggregateChangeExecutor.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.springframework.data.relational.core.conversion.SaveBatchingAggregateChange.forEachAction(SaveBatchingAggregateChange.java:74)
+	at org.springframework.data.relational.core.conversion.SaveBatchingAggregateChange.forEachAction(SaveBatchingAggregateChange.java:70)
 	at org.springframework.data.jdbc.core.AggregateChangeExecutor.executeSave(AggregateChangeExecutor.java:61)
 	at org.springframework.data.jdbc.core.JdbcAggregateTemplate.performSave(JdbcAggregateTemplate.java:499)
 	at org.springframework.data.jdbc.core.JdbcAggregateTemplate.save(JdbcAggregateTemplate.java:170)
@@ -157,7 +112,7 @@ org.springframework.data.relational.core.conversion.DbActionExecutionException: 
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
 	at com.kgisll.sb101.service.PersonService$$SpringCGLIB$$0.update(<generated>)
-	at com.kgisll.sb101.controller.PersonController.update(PersonController.java:53)
+	at com.kgisll.sb101.controller.PersonController.update(PersonController.java:54)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
@@ -220,70 +175,19 @@ org.springframework.data.relational.core.conversion.DbActionExecutionException: 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?)]; NULL not allowed for column "UNAME"; SQL statement:
-INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
-	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
-	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
-	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:677)
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1001)
-	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:365)
-	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:349)
-	at org.springframework.data.jdbc.core.convert.IdGeneratingInsertStrategy.execute(IdGeneratingInsertStrategy.java:68)
-	at org.springframework.data.jdbc.core.convert.DefaultDataAccessStrategy.insert(DefaultDataAccessStrategy.java:110)
-	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.executeInsertRoot(JdbcAggregateChangeExecutionContext.java:83)
-	at org.springframework.data.jdbc.core.AggregateChangeExecutor.execute(AggregateChangeExecutor.java:85)
+Caused by: org.springframework.dao.IncorrectUpdateSemanticsDataAccessException: Failed to update entity [Person[id=3, uname=alagu, email=thanush@email.com]]; Id [3] not found in database
+	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.updateWithoutVersion(JdbcAggregateChangeExecutionContext.java:339)
+	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.executeUpdateRoot(JdbcAggregateChangeExecutionContext.java:129)
+	at org.springframework.data.jdbc.core.AggregateChangeExecutor.execute(AggregateChangeExecutor.java:93)
 	... 121 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: NULL not allowed for column "UNAME"; SQL statement:
-INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
-	at org.h2.message.DbException.get(DbException.java:223)
-	at org.h2.message.DbException.get(DbException.java:199)
-	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
-	at org.h2.table.Table.convertInsertRow(Table.java:936)
-	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
-	at org.h2.command.dml.Insert.update(Insert.java:135)
-	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
-	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
-	at org.h2.command.Command.executeUpdate(Command.java:256)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$3(JdbcTemplate.java:1002)
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:658)
-	... 128 common frames omitted
-*[ERROR]-- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.relational.core.conversion.DbActionExecutionException: Failed to execute InsertRoot{entity=Person[id=0, uname=null, email=null], idValueSource=GENERATED}] with root cause--
-org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: NULL not allowed for column "UNAME"; SQL statement:
-INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
-	at org.h2.message.DbException.get(DbException.java:223)
-	at org.h2.message.DbException.get(DbException.java:199)
-	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:365)
-	at org.h2.table.Table.convertInsertRow(Table.java:936)
-	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
-	at org.h2.command.dml.Insert.update(Insert.java:135)
-	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
-	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
-	at org.h2.command.Command.executeUpdate(Command.java:256)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
-	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$3(JdbcTemplate.java:1002)
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:658)
-	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1001)
-	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:365)
-	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:349)
-	at org.springframework.data.jdbc.core.convert.IdGeneratingInsertStrategy.execute(IdGeneratingInsertStrategy.java:68)
-	at org.springframework.data.jdbc.core.convert.DefaultDataAccessStrategy.insert(DefaultDataAccessStrategy.java:110)
-	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.executeInsertRoot(JdbcAggregateChangeExecutionContext.java:83)
-	at org.springframework.data.jdbc.core.AggregateChangeExecutor.execute(AggregateChangeExecutor.java:85)
+*[ERROR]-- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.relational.core.conversion.DbActionExecutionException: Failed to execute DbAction.UpdateRoot(entity=Person[id=3, uname=alagu, email=thanush@email.com])] with root cause--
+org.springframework.dao.IncorrectUpdateSemanticsDataAccessException: Failed to update entity [Person[id=3, uname=alagu, email=thanush@email.com]]; Id [3] not found in database
+	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.updateWithoutVersion(JdbcAggregateChangeExecutionContext.java:339)
+	at org.springframework.data.jdbc.core.JdbcAggregateChangeExecutionContext.executeUpdateRoot(JdbcAggregateChangeExecutionContext.java:129)
+	at org.springframework.data.jdbc.core.AggregateChangeExecutor.execute(AggregateChangeExecutor.java:93)
 	at org.springframework.data.jdbc.core.AggregateChangeExecutor.lambda$executeSave$0(AggregateChangeExecutor.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.springframework.data.relational.core.conversion.SaveBatchingAggregateChange.forEachAction(SaveBatchingAggregateChange.java:74)
+	at org.springframework.data.relational.core.conversion.SaveBatchingAggregateChange.forEachAction(SaveBatchingAggregateChange.java:70)
 	at org.springframework.data.jdbc.core.AggregateChangeExecutor.executeSave(AggregateChangeExecutor.java:61)
 	at org.springframework.data.jdbc.core.JdbcAggregateTemplate.performSave(JdbcAggregateTemplate.java:499)
 	at org.springframework.data.jdbc.core.JdbcAggregateTemplate.save(JdbcAggregateTemplate.java:170)
@@ -339,7 +243,7 @@ INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
 	at com.kgisll.sb101.service.PersonService$$SpringCGLIB$$0.update(<generated>)
-	at com.kgisll.sb101.controller.PersonController.update(PersonController.java:53)
+	at com.kgisll.sb101.controller.PersonController.update(PersonController.java:54)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
@@ -402,23 +306,111 @@ INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
 *[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=asdfasd, email=string]]--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
 *[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=asdfasd, email=string]]--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
+*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  saveStock--
+*[INFO ]-- Arguments :  [Person[id=0, uname=PlaywrightF1, email=email1@email.com]]--
+*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getStockById--
+*[INFO ]-- Arguments :  [5]--
 *[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=asdfasd, email=string]]--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
 *[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
 *[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
 *[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=asdfasd, email=string]]--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 492 (started by alagu.thanush in D:\newspring-boot\sb101)--
+*[INFO ]-- Arguments :  [5, Person[id=3, uname=alagu, email=thanush@email.com]]--
+*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  deleteByid--
+*[INFO ]-- Arguments :  [5]--
+*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
+*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
+*[INFO ]-- Entering in Method :  getDetails--
+*[INFO ]-- Arguments :  []--
+*[INFO ]-- Starting TestApi using Java 21.0.2 with PID 15056 (started by alagu.thanush in D:\newspring-boot\sb101)--
 *[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
 *[INFO ]-- HikariPool-1 - Starting...--
 *[INFO ]-- HikariPool-1 - Starting...--
@@ -466,7 +458,6 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
 	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
 	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
@@ -476,17 +467,11 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at java.base/java.util.Optional.orElseGet(Optional.java:364)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
 	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
@@ -539,7 +524,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
-	... 97 common frames omitted
+	... 90 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personRepository' defined in com.kgisll.sb101.repository.PersonRepository defined in @EnableJdbcRepositories declared on JdbcRepositoriesRegistrar.EnableJdbcRepositoriesConfiguration: Cannot resolve reference to bean 'org.springframework.data.jdbc.core.mapping.JdbcMappingContext' while setting bean property 'mappingContext'
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
@@ -555,7 +540,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
-	... 111 common frames omitted
+	... 104 common frames omitted
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Unsatisfied dependency expressed through method 'jdbcMappingContext' parameter 1: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
@@ -571,7 +556,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1252)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
-	... 124 common frames omitted
+	... 117 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
@@ -588,11 +573,11 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
-	... 137 common frames omitted
+	... 130 common frames omitted
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
-	... 151 common frames omitted
+	... 144 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
@@ -615,11 +600,11 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
-	... 152 common frames omitted
+	... 145 common frames omitted
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
-	... 172 common frames omitted
+	... 165 common frames omitted
 Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:342)
@@ -640,7 +625,7 @@ Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to 
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
-	... 173 common frames omitted
+	... 166 common frames omitted
 Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/alagu.thanush/sb101.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -664,7 +649,7 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be a
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
-	... 191 common frames omitted
+	... 184 common frames omitted
 Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/alagu.thanush/sb101.mv.db [2.2.224/7]
 	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
 	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
@@ -673,211 +658,8 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/alagu.t
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
 	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
 	at org.h2.mvstore.db.Store.<init>(Store.java:133)
-	... 208 common frames omitted
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 12768 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.35 seconds (process running for 10.796)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 8388 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.596 seconds (process running for 11.156)--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 26460 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 7.982 seconds (process running for 10.601)--
-*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 11936 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 9.326 seconds (process running for 11.902)--
-*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 24668 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 5.619 seconds (process running for 6.33)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 844 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.815 seconds (process running for 11.44)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 19484 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 7.869 seconds (process running for 10.469)--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 14608 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.371 seconds (process running for 10.761)--
-*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 27908 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.527 seconds (process running for 11.011)--
-*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 26908 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 5.903 seconds (process running for 6.725)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 24096 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.601 seconds (process running for 11.036)--
-*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 2936 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 7.602 seconds (process running for 10.122)--
-*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [1]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 10828 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 6.462 seconds (process running for 7.249)--
-*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
-*[INFO ]-- Init duration for springdoc-openapi is: 404 ms--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 23588 (started by alagu.thanush in D:\newspring-boot\sb101)--
+	... 201 common frames omitted
+*[INFO ]-- Starting TestApi using Java 21.0.2 with PID 11152 (started by alagu.thanush in D:\newspring-boot\sb101)--
 *[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
 *[INFO ]-- HikariPool-1 - Starting...--
 *[INFO ]-- HikariPool-1 - Starting...--
@@ -925,7 +707,6 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
 	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
 	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
@@ -935,17 +716,11 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at java.base/java.util.Optional.orElseGet(Optional.java:364)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
 	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
 	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
@@ -998,7 +773,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
-	... 97 common frames omitted
+	... 90 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personRepository' defined in com.kgisll.sb101.repository.PersonRepository defined in @EnableJdbcRepositories declared on JdbcRepositoriesRegistrar.EnableJdbcRepositoriesConfiguration: Cannot resolve reference to bean 'org.springframework.data.jdbc.core.mapping.JdbcMappingContext' while setting bean property 'mappingContext'
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
@@ -1014,7 +789,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
-	... 111 common frames omitted
+	... 104 common frames omitted
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Unsatisfied dependency expressed through method 'jdbcMappingContext' parameter 1: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
@@ -1030,7 +805,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1284)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1252)
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
-	... 124 common frames omitted
+	... 117 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcCustomConversions' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
@@ -1047,11 +822,11 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
-	... 137 common frames omitted
+	... 130 common frames omitted
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.jdbc.core.convert.JdbcCustomConversions]: Factory method 'jdbcCustomConversions' threw exception with message: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
-	... 151 common frames omitted
+	... 144 common frames omitted
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcDialect' defined in class path resource [org/springframework/boot/autoconfigure/data/jdbc/JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration.class]: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
@@ -1074,11 +849,11 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
-	... 152 common frames omitted
+	... 145 common frames omitted
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.relational.core.dialect.Dialect]: Factory method 'jdbcDialect' threw exception with message: Failed to obtain JDBC Connection
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
-	... 172 common frames omitted
+	... 165 common frames omitted
 Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:342)
@@ -1099,7 +874,7 @@ Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to 
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
-	... 173 common frames omitted
+	... 166 common frames omitted
 Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/alagu.thanush/sb101.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
@@ -1123,7 +898,7 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be a
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
-	... 191 common frames omitted
+	... 184 common frames omitted
 Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/alagu.thanush/sb101.mv.db [2.2.224/7]
 	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
 	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
@@ -1132,158 +907,5 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/alagu.t
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
 	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
 	at org.h2.mvstore.db.Store.<init>(Store.java:133)
-	... 208 common frames omitted
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 7576 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.261 seconds (process running for 10.796)--
-*[INFO ]-- Before method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [2]--
-*[INFO ]-- After method:Optional com.kgisll.sb101.service.PersonService.getStockById(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getStockById--
-*[INFO ]-- Arguments :  [2]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 7576 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 9.068 seconds (process running for 11.654)--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 25732 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 5.619 seconds (process running for 6.345)--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 25656 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.304 seconds (process running for 10.814)--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 24564 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 8.835 seconds (process running for 11.242)--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.saveStock(Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  saveStock--
-*[INFO ]-- Arguments :  [Person[id=0, uname=John Doe, email=email@email.com]]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting PersonControllerMockMvcTest using Java 21.0.2 with PID 16316 (started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started PersonControllerMockMvcTest in 9.101 seconds (process running for 11.486)--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [195, Person[id=0, uname=John Doe update, email=updateemail@email.com]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [195, Person[id=0, uname=John Doe update, email=updateemail@email.com]]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
-*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 23484 (D:\newspring-boot\sb101\target\classes started by alagu.thanush in D:\newspring-boot\sb101)--
-*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
-*[INFO ]-- Starting service [Tomcat]--
-*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
-*[INFO ]-- Initializing Spring embedded WebApplicationContext--
-*[INFO ]-- HikariPool-1 - Starting...--
-*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
-*[INFO ]-- HikariPool-1 - Start completed.--
-*[INFO ]-- Started Sb101Application in 5.523 seconds (process running for 6.467)--
-*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
-*[INFO ]-- Init duration for springdoc-openapi is: 433 ms--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- Before method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- After method:List com.kgisll.sb101.service.PersonService.getDetails()--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  getDetails--
-*[INFO ]-- Arguments :  []--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=string]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=string]]--
-*[INFO ]-- Before method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=string]]--
-*[INFO ]-- After method:Person com.kgisll.sb101.service.PersonService.update(int,Person)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  update--
-*[INFO ]-- Arguments :  [3, Person[id=3, uname=alagu, email=string]]--
-*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [195]--
-*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [195]--
-*[INFO ]-- Before method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [195]--
-*[INFO ]-- After method:String com.kgisll.sb101.service.PersonService.deleteByid(int)--
-*[INFO ]-- Class Name :  com.kgisll.sb101.service.PersonService--
-*[INFO ]-- Entering in Method :  deleteByid--
-*[INFO ]-- Arguments :  [195]--
-*[INFO ]-- HikariPool-1 - Shutdown initiated...--
-*[INFO ]-- HikariPool-1 - Shutdown completed.--
+	... 201 common frames omitted
+*[WARN ]-- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s380ms703µs800ns).--
