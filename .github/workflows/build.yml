@@ -34,4 +34,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           # SONAR_TOKEN: bb952d456c808960ca1cf8154744672468354e5a
-        run: mvn sonar:sonar -Dsonar.projectKey=thanush7_springcrudone -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=bb952d456c808960ca1cf8154744672468354e5a
+        run: mvn sonar:sonar -Dsonar.projectKey=thanush7_springcrudone -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=bb952d456c808960ca1cf8154744672468354e5a
