@@ -33,6 +33,13 @@
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.java/sonar-java-plugin -->
+		<dependency>
+			<groupId>org.sonarsource.java</groupId>
+			<artifactId>sonar-java-plugin</artifactId>
+			<version>8.3.0.36747</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
@@ -75,7 +82,7 @@
 			<groupId>com.microsoft.playwright</groupId>
 			<artifactId>playwright</artifactId>
 			<version>1.46.0</version>
-		  </dependency>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -98,7 +105,8 @@
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>4.0.0.4121</version>  <!-- Use the appropriate version -->
-			  </plugin>
+			</plugin>
+
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
